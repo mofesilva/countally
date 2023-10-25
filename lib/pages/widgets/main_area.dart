@@ -15,6 +15,7 @@ class _MainAreaState extends State<MainArea> {
         appBar: AppBar(
           backgroundColor: Colors.transparent,
         ),
+        drawer: const Drawer(),
         body: Container(color: Colors.grey.shade100),
       ),
     );
